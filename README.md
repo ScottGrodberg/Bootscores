@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 5/23 
 * Comments removed
@@ -47,3 +48,9 @@ Then, update the stylesheet header in style.css and the links in footer.php with
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+=======
+Bootscores
+==========
+
+Twitter Bootstrap 3 + Automattic Underscores
+>>>>>>> 15dc7daee785cc5c0b94349fa1a6191f7541426d

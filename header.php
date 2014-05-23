@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -30,7 +30,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'coffee-sugar' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 

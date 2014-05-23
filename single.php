@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 
 get_header(); ?>

@@ -3,7 +3,7 @@
  * Jetpack Compatibility File
  * See: http://jetpack.me/
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 
 /**

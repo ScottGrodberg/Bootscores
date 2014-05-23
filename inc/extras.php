@@ -4,7 +4,7 @@
  *
  * Eventually, some of the functionality here could be replaced by core features
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 
 /**
@@ -60,7 +60,7 @@ function coffee_sugar_wp_title( $title, $sep ) {
 
 	// Add a page number if necessary:
 	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-		$title .= " $sep " . sprintf( __( 'Page %s', 'coffee-sugar' ), max( $paged, $page ) );
+		$title .= " $sep " . sprintf( __( 'Page %s', '_s' ), max( $paged, $page ) );
 	}
 
 	return $title;

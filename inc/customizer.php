@@ -1,8 +1,8 @@
 <?php
 /**
- * Coffee-Sugar Theme Customizer
+ * _s Theme Customizer
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 
 /**

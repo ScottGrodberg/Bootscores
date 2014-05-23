@@ -1,8 +1,8 @@
 <?php
 /**
- * Coffee-Sugar functions and definitions
+ * _s functions and definitions
  *
- * @package Coffee-Sugar
+ * @package _s
  */
 
 /**
@@ -25,10 +25,10 @@ function coffee_sugar_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Coffee-Sugar, use a find and replace
-	 * to change 'coffee-sugar' to the name of your theme in all the template files
+	 * If you're building a theme based on _s, use a find and replace
+	 * to change '_s' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'coffee-sugar', get_template_directory() . '/languages' );
+	load_theme_textdomain( '_s', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -42,7 +42,7 @@ function coffee_sugar_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'coffee-sugar' ),
+		'primary' => __( 'Primary Menu', '_s' ),
 	) );
 
 	// Enable support for Post Formats.
@@ -73,7 +73,7 @@ add_action( 'after_setup_theme', 'coffee_sugar_setup' );
  */
 function coffee_sugar_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'coffee-sugar' ),
+		'name'          => __( 'Sidebar', '_s' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -90,12 +90,12 @@ add_action( 'widgets_init', 'coffee_sugar_widgets_init' );
 function coffee_sugar_scripts() {
 	
 	
-	wp_enqueue_style( 'coffee-sugar-style', get_stylesheet_uri() );
+	wp_enqueue_style( '_s-style', get_stylesheet_uri() );
   
 	// COMMENTED OUT, RELYING ON BOOTSTRAP FOR THESE	
-	//wp_enqueue_script( 'coffee-sugar-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	//wp_enqueue_script( '_s-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'coffee-sugar-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( '_s-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	//if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 	//	wp_enqueue_script( 'comment-reply' );

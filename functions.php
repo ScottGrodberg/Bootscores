@@ -40,9 +40,10 @@ function coffee_sugar_setup() {
 	 */
 	//add_theme_support( 'post-thumbnails' );
 
-	// This theme uses wp_nav_menu() in one location.
+	// This theme uses wp_nav_menu() in two location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', '_s' ),
+		'secondary' => __( 'Secondary Menu', '_s' )
 	) );
 
 	// Enable support for Post Formats.

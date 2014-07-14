@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php coffee_sugar_paging_nav(); ?>
+			<?php _s_paging_nav(); ?>
 
 		<?php else : ?>
 

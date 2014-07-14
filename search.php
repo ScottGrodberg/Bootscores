@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Search Results pages.
+ * The template for displaying search results pages.
  *
  * @package _s
  */
@@ -30,7 +30,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php coffee_sugar_paging_nav(); ?>
+			<?php _s_paging_nav(); ?>
 
 		<?php else : ?>
 

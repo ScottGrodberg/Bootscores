@@ -1,6 +1,6 @@
 <?php
 /**
- * The Template for displaying all single posts.
+ * The template for displaying all single posts.
  *
  * @package _s
  */
@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php coffee_sugar_post_nav(); ?>
+			<?php _s_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

@@ -73,7 +73,7 @@
         ?>
 				
 				
-			</div><!-- /.container-fluid -->
+			</div><!-- /.container -->
 		</nav><!-- /.navbar -->
 		
 	</header><!-- #masthead -->
